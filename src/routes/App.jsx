@@ -9,11 +9,7 @@ const App = () => (
   <BrowserRouter>
     <Layout>
       <Switch>
-        <Route
-          exact
-          path="https://valenfontana7.github.io/jest-testing/"
-          component={Home}
-        />
+        <Route exact path="/jest-testing" component={Home} />
         <Route exact path="/checkout" component={Checkout} />
         <Route component={NotFound} />
       </Switch>
